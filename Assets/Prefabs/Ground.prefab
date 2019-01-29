@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4491274858583770}
   - component: {fileID: 212744412382279108}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266686052609704}
   - component: {fileID: 212633185020791972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,9 +51,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4719465076688716}
-  - component: {fileID: 50638994343258504}
   - component: {fileID: 61186198603904528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Propeller
   m_Icon: {fileID: 0}
@@ -69,7 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4557193970775076}
   - component: {fileID: 212686165342247524}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,26 +130,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &50638994343258504
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1490743013210618}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!61 &61186198603904528
 BoxCollider2D:
   m_ObjectHideFlags: 1
