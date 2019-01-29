@@ -9,7 +9,12 @@ public class TrapdoorController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider col)
     {
-        if (col.gameObject.tag == "Hero")
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Hero")
         {
             JointMotor2D theMotor = pivotHingeJoint.motor;
             theMotor.motorSpeed = 100f;
@@ -19,6 +24,6 @@ public class TrapdoorController : MonoBehaviour {
 
     //void SetTrap()
     //{
-        
+
     //}
 }
